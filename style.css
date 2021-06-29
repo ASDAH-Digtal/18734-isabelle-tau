@@ -2,7 +2,7 @@
 Name: 
 Date: 
 */
-
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
 :root{
     --main-bg-colour: #19c0b870;
     --sec-bg-colour: #18b492;
@@ -29,6 +29,7 @@ Date:
     grid-area: header;
     background-color: var(--main-bg-colour);
     color: var(--main-colour);
+    text-align: center;
 }
 
 .main{ /*DO NOT REMOVE*/
@@ -40,23 +41,28 @@ Date:
 .side1{ /*DO NOT REMOVE*/
     grid-area: side1;
     background-color: var(--main-colour);
+    text-align: center;
 }
 
 .side2{ /*DO NOT REMOVE*/
     grid-area: side2;
     background-color: var(--main-colour);
+    text-align: center;
 }
 
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
+    font-family: 'Jomhuria', cursive;
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
+    font-family: 'jomhuria' , cursive;
 }
 
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: videoSection;
+    text-align: center;
 }
 
 .footer{ /*DO NOT REMOVE*/
