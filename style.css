@@ -19,6 +19,12 @@ Date:
     "side1 section1 section1"
     "section2 videoSection side2"
     "footer footer footer";
+    [9:30 AM] isabelle taufoou
+    
+
+"footer footer footer";
+
+
 }
 
 .container > div{ /*DO NOT REMOVE*/
@@ -73,4 +79,13 @@ Date:
     grid-area: footer;
     background-color: var(--main-bg-colour);
     color: var(--main-colour);
+}
+
+.footer{ /*DO NOT REMOVE*/
+ grid-area: footer;
+ color: var(--main-colour);
+ background-color: #F2D666;
+ text-align: center;
+ font-family: 'Sigmar One', cursive;
+ border-style: double;
 }
