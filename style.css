@@ -36,6 +36,7 @@ Date:
     grid-area: main;
     background-color: var(--sec-bg-colour);
     color: var(--main-colour);
+    
 }
 
 .side1{ /*DO NOT REMOVE*/
@@ -53,12 +54,15 @@ Date:
 .section1{ /*DO NOT REMOVE*/
     grid-area: section1;
     font-family: 'Jomhuria', cursive;
+    font-size: 25px;
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
     font-family: 'jomhuria' , cursive;
+     font-size: 25px;
 }
+
 
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: videoSection;
