@@ -6,7 +6,7 @@ Date:
 :root{
     --main-bg-colour: #19c0b870;
     --sec-bg-colour: #18b492;
-    --main-colour: #d9f4d4;
+    --main-colour: #000000;
     --sec-colour: #75e6b1;
 }
 
@@ -18,17 +18,8 @@ Date:
     "header header header"
     "side1 section1 section1"
     "section2 videoSection side2"
+    "references references references"
     "footer footer footer";
-    [9:30 AM] isabelle taufoou
-    
-
-"footer footer footer";
-
-
-}
-
-.container > div{ /*DO NOT REMOVE*/
-    padding: 10px;
 }
 
 .header{ /*DO NOT REMOVE*/
@@ -61,18 +52,31 @@ Date:
     grid-area: section1;
     font-family: 'Jomhuria', cursive;
     font-size: 25px;
+    padding: 30px;
 }
 
 .section2{ /*DO NOT REMOVE*/
     grid-area: section2;
     font-family: 'jomhuria' , cursive;
      font-size: 25px;
+     padding: 30px;
 }
 
 
 .videoSection{ /*DO NOT REMOVE*/
     grid-area: videoSection;
     text-align: center;
+}
+
+.references {
+  grid-area: references;
+  font-family: 'jomhuria' , cursive;
+  font-size: 25px;
+  text-align: center;
+}
+
+.references li {
+  list-style-type: none;
 }
 
 .footer{ /*DO NOT REMOVE*/
@@ -84,7 +88,7 @@ Date:
 .footer{ /*DO NOT REMOVE*/
  grid-area: footer;
  color: var(--main-colour);
- background-color: #F2D666;
+ background-color: #19c0b870;
  text-align: center;
  font-family: 'Sigmar One', cursive;
  border-style: double;
